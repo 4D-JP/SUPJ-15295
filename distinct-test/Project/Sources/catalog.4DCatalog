@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="distinct-test" uuid="74628D67B3C74102810D52F7CDCE0EB3" collation_locale="ja">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Table_1" uuid="A1E2E9039FF3402C8BFA90B68A9F9B99" id="1">
+		<field name="ID" uuid="F4990EC163674F5DAA277E95BE371875" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Field_2" uuid="388F0F8E947C4B6ABC0FA9AFBCE19B35" type="10" limiting_length="255" never_null="true" id="2"/>
+		<primary_key field_name="ID" field_uuid="F4990EC163674F5DAA277E95BE371875"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="54.46484375" top="83.10546875" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="36E92791DE8C43858A7E8F394F43C921" type="7">
+		<field_ref uuid="F4990EC163674F5DAA277E95BE371875" name="ID">
+			<table_ref uuid="A1E2E9039FF3402C8BFA90B68A9F9B99" name="Table_1"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:68.1.0, alternate=search" __keywordBuildingHash="mecab:0.996;sys.dic:102;">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>
